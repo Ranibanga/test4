@@ -1,0 +1,75 @@
+h1{
+    color: blue;
+}
+nav ul{
+    list-style-type: none;
+}
+nav li{
+    display: inline;
+}
+nav a{
+    display: inline-block;
+    border: 2px solid indigo;
+    border-radius: 5px;
+    padding: 5px 10px;
+    color: indigo;
+    background-color: cornsilk;
+    text-decoration: none;
+}
+nav a:hover{
+    color: aqua;
+    background-color: indigo;
+}
+nav li {
+    display: inline;
+    list-style-type: none;
+}
+nav a {
+    border: 2px solid indigo;
+    color: indigo;
+    background-color: cornsilk;
+    text-decoration: none;
+}
+nav a:hover {
+    color: cornsilk;
+    background-color: indigo;
+}
+form {
+    border: 5px dashed #808080;
+    padding: 5px;
+}
+input[type="text"],
+input[type="email"],
+select,
+textarea {
+    width: 50%;
+    display: block;
+    height: 2em;
+}
+textarea {
+    width: 50%;
+    display: block;
+}
+fieldset {
+    border: none;
+}
+input[type="radio"],
+input[type="checkbox"] {
+    height: 2em;
+    width: 2em;
+}
+select,
+option,
+label,
+legend,
+input[type="submit"] {
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-variant: small-caps;
+}
+footer{
+    text-align: center;
+    color: blue;
+    font-size: larger;
+    
+}
